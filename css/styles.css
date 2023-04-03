@@ -1,0 +1,246 @@
+body{
+  background-color: #ffffff;
+  font-family: 'Sawarabi Gothic', sans-serif;
+  text-align: center;
+}
+
+/* Heading and Hero Section */
+.bg-heading {
+  font-family: 'Roboto Slab', serif;
+  color: #f5f5fa;
+  padding:0;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  font-size: 2.2rem;
+  filter: drop-shadow(8px 8px 10px #0C4271);
+}
+.tag-line{
+  font-size: .6rem;
+  letter-spacing: 2px;
+  padding: 0;
+  margin: 0 auto;
+  font-family: 'Sawarabi Gothic', sans-serif;
+  color: #0A81AB;
+
+}
+.colored-section {
+    background-color: #13131a;
+  }
+
+.navbar{
+  padding: 0 15%;
+}
+.hero{
+  padding-top: 8%;
+}
+.download-button{
+  padding: 10% 0;
+}
+.intro{
+  padding-top: 15%;
+  display: block;
+  text-align: right;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  bottom: 16px;
+  right: 16px;
+}
+.myPortrait {
+  display: block;
+  margin-left: 0;
+  width: 60%;
+  object-fit: contain;
+  filter: drop-shadow(8px 8px 10px #0C4271);
+}
+.logo:hover{
+  filter: drop-shadow(8px 8px 10px #0C4271);
+  transform: rotate(20deg);
+}
+
+
+/* Animation */
+.create{
+  color: #F9DFDC;
+  position: relative;
+  animation-name: create_animation;
+  animation-duration: 8s;
+  animation-delay: 1s;
+
+}
+@keyframes create_animation {
+  0%   {color:#F9DFDC; right:0px; bottom:0px;}
+  25%  {color:#86C8BC; right:0px; bottom:200px;}
+  50%  {color:#CEEDC7; right:200px; bottom:200px;}
+  75%  {color:#FFF6BD; right:0px; bottom:200px;}
+  100% {color:#F9DFDC; right:0px; bottom:0px;}
+}
+
+.tech{
+  color: #F9DFDC;
+  position: relative;
+  animation-name: tech_animation;
+  animation-duration: 8s;
+  animation-delay: 2s;
+}
+@keyframes tech_animation {
+  0%   {color:#F9DFDC; right:0px; top:0px;}
+  25%  {color:#FFF6BD; right:0px; top:200px;}
+  50%  {color:#CEEDC7; right:200px; top:200px;}
+  75%  {color:#86C8BC; right:0px; top:200px;}
+  100% {color:#FFD4B2; right:0px; top:0px;}
+}
+.and{
+  color: #F9DFDC;
+  animation-name: color_change;
+  animation-duration: 10s;
+}
+
+@keyframes color_change {
+  0%   {color: #F7F1E5;}
+  25%  {color: #E7B10A;}
+  50%  {color: #F7F1E5;}
+  100% {color: #E7B10A;}
+}
+
+/* About Section */
+
+.about_container{
+  padding: 8% 25%;
+  text-align: left;
+
+}
+.hi{
+  color: #13131a;
+  padding: 45px 0;
+  font-family: 'Sawarabi Gothic', sans-serif;
+  filter: drop-shadow(8px 8px 10px #bce4f3);
+}
+.aboutText{
+  color: #13131a;
+  padding: 3px 0;
+  font-family: 'Sawarabi Gothic', sans-serif;
+  font-size: 1.2rem;
+  line-height: 50px;
+  letter-spacing: 2px;
+  filter: drop-shadow(8px 8px 10px #bce4f3);
+}
+
+/* Portraits Section */
+.Portraits{
+  padding: 5% 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+
+}
+
+
+/* Work Section */
+#work{
+  margin: 10% 15%;
+}
+.work-column {
+  padding: 5% 2%;
+}
+/* img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+} */
+
+
+/* .graphic_design{
+  width: 100%;
+}
+.graphic_design:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+} */
+
+
+
+
+
+/* Footer Section */
+.media-icon {
+  margin: 15px 20px 40px 20px;
+  color: #13131a;
+  text-decoration: none;
+}
+
+
+
+
+
+
+/* Tablet and Mobile Version */
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+  .hero{
+    padding-top: 40%;
+  }
+  .bg-heading {
+    font-size: 2rem;
+    letter-spacing: 2px;
+  }
+  .intro{
+    text-align: left;
+    width: 80%;
+  }
+  .myPortrait {
+    margin-left: auto;
+    margin-right:auto;
+  }
+  .about_container{
+    padding: 8% 15%;
+  }
+  .hi{
+    padding: 25px 0;
+  }
+  p{
+    padding: 2px 0;
+    font-size: 1rem;
+    line-height: 45px;
+    letter-spacing: 1px;
+  }
+  .Portraits{
+    width: 50%;
+  }
+
+
+  /* Animation */
+.create{
+  color: #F9DFDC;
+  position: relative;
+  animation-name: create_animation;
+  animation-duration: 8s;
+  animation-delay: 1s;
+
+}
+@keyframes create_animation {
+  0%   {color:#F9DFDC; right:0px; bottom:0px;}
+  25%  {color:#86C8BC; right:0px; bottom:150px;}
+  50%  {color:#CEEDC7; right:100px; bottom:150px;}
+  75%  {color:#FFF6BD; right:0px; bottom:150px;}
+  100% {color:#F9DFDC; right:0px; bottom:0px;}
+}
+  .tech{
+    color: #F9DFDC;
+    position: relative;
+    animation-name: tech_animation;
+    animation-duration: 8s;
+    animation-delay: 2s;
+  }
+  @keyframes tech_animation {
+    0%   {color:#F9DFDC; left:0px; top:0px;}
+    25%  {color:#FFF6BD; left:0px; top:200px;}
+    50%  {color:#CEEDC7; left:100px; top:200px;}
+    75%  {color:#86C8BC; left:0px; top:200px;}
+    100% {color:#FFD4B2; left:0px; top:0px;}
+  }
+
+}
